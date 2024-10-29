@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande", sans-serif;
+    font-size: 15px;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  body {
+    overscroll-behavior-y: contain;
+    position: static;
+    width: 100%;
+    touch-action: none;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-items: stretch;
+    align-items: stretch; */
+    background-image: url("../img/bgscreen.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
